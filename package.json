@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ikeras/leoaka"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
