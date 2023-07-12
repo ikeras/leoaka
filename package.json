@@ -1,6 +1,6 @@
 {
   "name": "leoaka",
-  "version": "1.0.0",
+  "version": "0.0.0.1",
   "description": "A chrome extension that replaces a user's name with what they'd prefer to be called for UMGC classes",
   "main": "index.js",
   "scripts": {
