@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "LEO AKA",
+  "description": "A firefox extension that replaces a user's name with what they'd prefer to be called for UMGC classes",
+  "version": "0.0.0.2",
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": false
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{53CFB60E-D072-4684-90BA-86FB017D2438}"
+    }
+  },
+  "icons": {
+    "16": "id16.png",
+    "32": "id32.png",
+    "48": "id48.png",
+    "128": "id128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "id16.png",
+      "24": "id24.png",
+      "32": "id32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://learn.umgc.edu/d2l/*"
+      ],
+      "js": [
+        "js/vendor.js",
+        "js/content_script.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://learn.umgc.edu/d2l/*"
+  ]
+}
