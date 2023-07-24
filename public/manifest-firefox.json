@@ -2,14 +2,14 @@
   "manifest_version": 3,
   "name": "LEO AKA",
   "description": "A firefox extension that replaces a user's name with what they'd prefer to be called for UMGC classes",
-  "version": "0.0.0.2",
+  "version": "0.0.0.3",
   "options_ui": {
     "page": "options.html",
     "browser_style": false
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "{53CFB60E-D072-4684-90BA-86FB017D2438}"
+      "id": "{3FA7464C-D29D-435D-8F39-7B5127202AF1}"
     }
   },
   "icons": {

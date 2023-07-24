@@ -24,3 +24,7 @@ chrome.tabs.onActivated.addListener(async info => {
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
   await updateTabIcon(tab);
 });
+
+chrome.action.onClicked.addListener(tab => {
+  chrome.runtime.openOptionsPage();
+});
